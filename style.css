@@ -367,7 +367,234 @@ color: 	#FFFFFF;
 }
 
 .team h1{
-  text-transform: uppercase;
+  top: 0;
   margin-bottom: 60px;
+  color: #161616;
+}
+
+.team_column1,.team_column2,.team_column3
+{
+  float: left;
+  width: 33%;
+}
+
+.team_column1
+{
+  padding-left: 100px;
+}
+
+.team_column2
+{
+  padding-left: 10px;
+}
+
+.team_column3
+{
+  padding-right: 80px;
+}
+
+.ps {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.ps img
+{
+  vertical-align: middle;
+  width:100%;
+}
+
+.ps .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.ps .content h2,h4{
+  color: #ffb500;
+}
+
+@media screen and (max-width: 900px)
+ {
+
+.team_column1,.team_column2,.team_column3
+{
+  float: left;
+  width: 100%;
+}
+
+.team_column1
+{
+  padding-left: 5px;
+}
+
+.team_column2
+{
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.team_column3
+{
+  padding-left: 85px;
+  padding-top: 40px;
+}
+
+.ps img
+{
+ vertical-align: middle;
+  width:100%;
+  }
+}
+
+/*--------------- footer starts here  --------------- */
+
+  .footer_row
+  {
+    background-color: #161616;  
+    padding-bottom: 0px;
+    width: 100%;
+  }
+
+.column 
+{
+  float: left;
+  width: 25%;
+}
+
+#footer_brand
+{
+  float: left;
+  display: block;
+  margin-left: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+#footer_brand span{
+  color: #ffb500;
+  font-family: 'Patua One', cursive;
+}
+
+#footer_brand a {
+  color: #fff;
+  transition: all 500ms ease-out;
+  text-decoration: none;
+}
+
+#footer_brand a:hover {
+  text-decoration: none;
+}
+
+.column p,a
+{
+  font-family: Poppins !important;
+  color: rgb(156, 156, 156);
+  transition: all 500ms ease-out;
+  text-decoration: none;
+}
+
+.column a:hover {
+  text-decoration: none;
+  color:  #ffb500;
+  transition: all 500ms ease-out;
+}
+
+.column .sections a
+{
+  font-size: 20px;
+}
+
+.column .loc img
+{
+  padding: 0;
+}
+
+.column .loc p
+{
+  font-size: 17px;
+}
+
+.column .available
+{
+  padding-top: 50px; 
+  font-size: 18px;
+}
+
+.column .available p
+{
+  color: white;
+}
+
+@media screen and (max-width: 900px)
+ {
+.footer_row
+  {
+    background-color: #161616;  
+    padding-bottom: 0px;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+.column 
+{
+  float: left;
+  width: 25%;
+}
+
+#footer_brand
+{
+  float: left;
+  display: block;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.column a
+{
+  font-family: Poppins !important;
+  color: rgb(156, 156, 156);
+  transition: all 500ms ease-out;
+  text-decoration: none;
+}
+
+.column .sections a
+{
+  font-size: 13px;
+  padding-left: 70px;
+}
+
+.column .loc img
+{
+  padding-left: 30px;
+  float: left;
+}
+
+.column .loc p
+{
+  font-size: 14px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.column .available
+{
+  display : none;
+}
 
 }
