@@ -242,20 +242,20 @@ video {
 /*Done by Banuki and Nijah*/ 
 .content {
   position: absolute;
-  margin-top: 85vh;
+  margin-top: 60vh;
   width: 100%;
 
 }
 
 section {
-  padding: 390px 0;
+  padding: 370px 0;
   text-align: center;
-
+ padding-bottom: 255px;
 }
 
 #headText1{
   font-size: 40px;
-  transform: translate(0%, -135%);
+  transform: translate(0%, -145%);
    left: 45%;
   right: 30%; 
 }
@@ -275,15 +275,11 @@ section {
   text-align: center; 
   left: 45%;
   right :30%;
-   transform: translate(-40%, 55%);
+   transform: translate(-40%, 65%);
     width: 50%;
     position: absolute;
 
     }
-
-
-
-
 /*      edited by Banuki and Nijah    */
 /*--------------- services provided section starts  --------------- */
 
