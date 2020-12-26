@@ -288,6 +288,9 @@ section {
 /*--------------- services provided section starts  --------------- */
 
 
+ /*-- Removes the bullet points*/
+ul{ list-style-type: none; }
+
 .service {
   background: #161616;
 
