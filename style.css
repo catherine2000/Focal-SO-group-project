@@ -242,18 +242,20 @@ video {
 /*Done by Banuki and Nijah*/ 
 .content {
   position: absolute;
-  margin-top: 100vh;
+  margin-top: 85vh;
   width: 100%;
+
 }
 
 section {
-  padding: 140px 0;
+  padding: 390px 0;
   text-align: center;
+
 }
 
 #headText1{
   font-size: 40px;
-  transform: translate(0%, -120%);
+  transform: translate(0%, -135%);
    left: 45%;
   right: 30%; 
 }
@@ -278,6 +280,7 @@ section {
     position: absolute;
 
     }
+
 
 
 
@@ -332,29 +335,8 @@ font-size: 14px;
 text-align: center;  
 transform: translate(1.5%, 10%);
 color: 	#FFFFFF;
-
+padding-bottom: 70px;
 }
-
-
-#text1 {
-   text-align: center; 
-     position: absolute;
-  left: 45%;
-  right: 30%;
-      transform: translate(-40%, -50%);
-    width:50%;    
-}
-
-
-#text3{
-  text-align: center; 
-  left: 45%;
-  right :30%;
-   transform: translate(-40%, 85%);
-    width: 50%;
-    position: absolute;
-    }
-
 
 
 
