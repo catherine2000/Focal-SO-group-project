@@ -475,29 +475,34 @@ transform: translate(23.5%, 10%);
     position: absolute;
     top: 80px;
     right: 70px;
-    width: 175px;
+    width: 200px;
     background: rgba(0, 0, 0, 0.8);
-    padding: 8px;
-    text-align: right;
+    padding: 21px;
+    text-align: left;
     border-radius: 10px;
-    color: blue;
+
     display: none;
     transform: translate(1%,18%);
 }
 
 .description h2{
-    color: #98ffcc;
-    margin-bottom: 14px;
-    font-size: 20px;
+    color: #ffb500;
+    text-align: middle;
+    margin-top : 7px;
+    margin-bottom: 70px;
+    font-size: 17px;
     transform: translate(-1%,-45%);
 }
 
 .description p{
     color: white;
-    font-size: 15px;
+    position: absolute;
+    top: 102px;
+    font-size: 13px;
     line-height: 18px;
     transform: translate(0%,-65%);
 }
+
 
 .description:before{
     content:"";
