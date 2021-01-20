@@ -383,7 +383,8 @@ padding-bottom: 70px;
 .ps img
 {
   vertical-align: middle;
-  width:100%;
+  width:68%;
+    height: 350px;
 }
 
 .ps .content {
@@ -391,18 +392,22 @@ padding-bottom: 70px;
   bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+  color: blue;
+  width: 70%;
+  padding-top: 0.1px;
+transform: translate(21.5%, 10%);
 }
 
-.ps .content h2,h4{
-  color: #ffb500;
+.ps .content h4{
+  color: #98ffcc;
+    font-size: 30px;
+   width: 70%;
+   transform: translate(21.5%, 0%);
 }
 
 @media screen and (max-width: 900px)
- {
-
+ { 
+     
 .team_column1,.team_column2,.team_column3
 {
   float: left;
@@ -431,6 +436,81 @@ padding-bottom: 70px;
  vertical-align: middle;
   width:100%;
   }
+}
+
+.menu{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 25px;
+    height: 45px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5); 
+    transform: translate(-255%,95%);
+}
+
+.menu > div{
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 45%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%,-45%);
+}
+
+.menu > div:first-child{
+    top: 20%;
+}
+
+
+
+.menu > div:last-child{
+    top: 70%;
+}
+
+.description{
+    position: absolute;
+    top: 80px;
+    right: 70px;
+    width: 175px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px;
+    text-align: right;
+    border-radius: 10px;
+    color: blue;
+    display: none;
+    transform: translate(1%,18%);
+}
+
+.description h2{
+    color: #98ffcc;
+    margin-bottom: 14px;
+    font-size: 20px;
+    transform: translate(-1%,-45%);
+}
+
+.description p{
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    transform: translate(0%,-65%);
+}
+
+.description:before{
+    content:"";
+    border:8px solid;
+    border-color: transparent transparent rgba(0, 0, 0, 0.8) transparent;
+    position: absolute;
+    top: -17px;
+    right: 5px;
+    
+}
+
+.menu.active + .description{
+    display:block;
 }
 
 /*--------------- footer starts here  --------------- */
