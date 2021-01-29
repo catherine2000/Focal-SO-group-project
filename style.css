@@ -251,9 +251,9 @@ video {
 }
 
 section {
-  padding: 370px 0;
+  padding: 400px 0;
   text-align: center;
- padding-bottom: 255px;
+ padding-bottom: 140px;
 }
 
 #headText1{
@@ -293,7 +293,9 @@ ul{ list-style-type: none; }
 .service {
   background: #161616;
   padding-right: 100px;
-  padding-top: 25px;
+  margin-top: 30px;
+  padding-top: 100px;
+  padding-bottom: 105px;
   text-align: center;
   color: #FFFFFF;   
   transform: translate(0%,0%);
