@@ -283,6 +283,48 @@ section {
 
     }
 
+#text4{
+    text-align: center; 
+     position: absolute;
+     left: 45%;
+  right :30%;
+   transform: translate(-39.5%, 276%);
+    width: 50%;
+    font-size: 15px;
+}
+
+@media(max-width: 900px){
+    
+    .content{
+        width:100%;
+    }
+    
+    section{
+        padding: 380px 0px;
+       
+        
+    }
+    
+    #headText1{
+        transform: translate(0%,-410%);
+    }
+    
+    
+    #text1{
+       transform: translate(-38%,-118%);
+    }
+    
+    #text3{
+        
+    transform: translate(-38%,1%)
+    }
+    
+    #text4{
+        transform: translate(-38%, 133%);
+    }
+    
+}
+
 /*--------------- services provided section starts  --------------- */
 
 
@@ -292,7 +334,7 @@ ul{ list-style-type: none; }
 .service {
   background: #161616;
   padding-right: 100px;
-  margin-top: 30px;
+  margin-top: 25px;
   padding-top: 100px;
   padding-bottom: 105px;
   text-align: center;
@@ -323,12 +365,12 @@ font-size: 60px;
 
 
 .service-box:hover .service-icon i{
-transform: rotate(60deg);
+
 }
 
 .service-box:hover .service-icon{
 color: #FFD433;
-transform: rotate(-60deg);
+
 }
 
 .service-title{
@@ -346,6 +388,32 @@ text-align: center;
 transform: translate(1.5%, 10%);
 color: 	#FFFFFF;
 padding-bottom: 70px;
+}
+
+@media(max-width: 900px){
+    .service{
+        padding: 50px 0px;
+    }
+    .service h1{
+      transform: translate(4%,0%);
+    }
+    
+    .service-icon{
+        display: block;
+        transform: translate(250%,0%);
+    }
+    
+    .service-icon i{
+        transform: translate(10%,0%);
+    }
+    
+    
+    .service-title{
+        transform: translate(4%,0%);
+    }
+    .service-desc{
+        transform: translate(4%,0%);
+    }
 }
 
 
@@ -420,39 +488,6 @@ transform: translate(23.5%, 10%);
     font-size: 30px;
    width: 70%;
    transform: translate(21.5%, 0%);
-}
-
-@media screen and (max-width: 900px)
- { 
-     
-.team_column1,.team_column2,.team_column3
-{
-  float: left;
-  width: 100%;
-}
-
-.team_column1
-{
-  padding-left: 5px;
-}
-
-.team_column2
-{
-  padding-left: 5px;
-  padding-top: 40px;
-}
-
-.team_column3
-{
-  padding-left: 85px;
-  padding-top: 40px;
-}
-
-.ps img
-{
- vertical-align: middle;
-  width:100%;
-  }
 }
 
 .menu{
@@ -534,6 +569,70 @@ transform: translate(23.5%, 10%);
 .menu.active + .description{
     display:block;
 }
+
+@media screen and (max-width: 900px)
+ { 
+
+     .team h1{
+         transform: translate(6%,0%);
+        
+     }
+     
+     .team{
+         width: 91.7%;
+         transform: translate(-1.8%,0%);
+     }
+     
+
+     .ps .content{
+         transform: translate(35%,0%);
+         width: 72%;
+     }
+     
+.team_column1,.team_column2,.team_column3
+{
+  float: left;
+  width: 95%;
+    display: block;
+}
+
+.team_column1
+{
+  padding-left: 5px;
+}
+
+.team_column2
+{
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.team_column3
+{
+    
+  padding-left: 85px;
+  padding-top: 40px;
+} 
+
+.ps img
+{
+ vertical-align: middle;
+  width:72%;
+    height: 330px;
+    transform: translate(35%,0%);
+    display: block;
+  }
+
+     .menu{
+         display: block;
+         transform: translate(-89%,100%);
+     }
+     
+     .description{
+         transform: translate(22%,18%);
+     }
+}
+
 
 /*--------------- footer starts here  --------------- */
 
